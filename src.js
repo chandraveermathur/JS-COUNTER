@@ -20,6 +20,6 @@ function subnumber() {
 }
 
 
-addbtn.addEventListener('mouseover', addnumber)
+addbtn.addEventListener('click', addnumber)
 
-subbtn.addEventListener('mouseup', subnumber)
+subbtn.addEventListener('click', subnumber)

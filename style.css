@@ -1,20 +1,47 @@
-*{
+body{
     margin: 0;
     padding: 0;   
+    background-image: url(background/b58d51fe6d3229d785a61f02e463bef8.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Ensure the body takes up the full viewport height */
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.heading{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 30px;
 }
 
 .container{
-    background-color: cornflowerblue;
-    color: white;
+    /* background-color: cornflowerblue; */
+    background: linear-gradient(to right, rgba(255, 165, 0, 0.8), rgba(128, 0, 128, 0.8)); /* Orange to Purple gradient with transparency */    color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 50px;
 
     margin: 20px 30px;
 
     text-align: center;
+    
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0 100px;
+    border-radius: 5px;
+
 }
 
-
+.container h1{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
 .btn1, .btn2{
     padding: 10px 30px;
     margin: 20px 20px;
@@ -22,6 +49,7 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     border-radius: 5px;
+
 }
 
 .btn1{

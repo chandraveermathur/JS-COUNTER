@@ -1,5 +1,4 @@
 var addbtn = document.getElementById('add')
-
 var subbtn = document.getElementById('sub')
 
 var counter = 0
@@ -19,7 +18,13 @@ function subnumber() {
 
 }
 
-
 addbtn.addEventListener('click', addnumber)
 
 subbtn.addEventListener('click', subnumber)
+
+// addbtn.onclick = function(){
+//     var number = document.getElementById('numid')
+//     counter += 1
+//     number.innerText = counter
+
+// }

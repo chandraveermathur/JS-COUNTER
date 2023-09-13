@@ -5,7 +5,8 @@ jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
-      - run echo "Hello"
+      - run: echo "Hello"
+      
 # jobs:
 #   Explore-GitHub-Actions:
 #     runs-on: ubuntu-latest
